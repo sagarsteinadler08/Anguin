@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Streamlit
+.streamlit/
+*.csv
+!bmi_history.csv  # Keep the csv if desired, or ignore if it's local data only. Let's ignore history for privacy.
+bmi_history.csv
+
+# Large Files
+nathan_walking.zip
+anguin_logo.jpg
+anguin_logo_round.jpg
